@@ -1,5 +1,60 @@
-<h1>New Property</h1>
+<h1>物件登録</h1>
 
-<%= render 'form', property: @property %>
+<%= form_with(model: property, local: true) do |f| %>
+  <% if property.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(property.errors.count, "error") %> prohibited this property from being saved:</h2>
+
+      <ul>
+        <% property.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %>
+    <%= f.text_area :name %>
+  </div>
+  <div class="field">
+    <%= f.label :price %>
+    <%= f.text_area :price %>
+  </div>
+  <div class="field">
+    <%= f.label :address %>
+    <%= f.text_area :address %>
+  </div>
+  <div class="field">
+    <%= f.label :age %>
+    <%= f.text_area :age %>
+  </div>
+  <div class="field">
+    <%= f.label :remark %>
+    <%= f.text_area :remark %>
+  </div>
+
+  <% 2.times do %>
+    <%= f.fields_for :near_stations, @property.near_stations.build do |p| %>
+      <div class="field">
+        <%= p.label :line_name %>
+        <%= p.text_area :line_name %>
+      </div>
+      <div class="field">
+        <%= p.label :station_name %>
+        <%= p.text_area :station_name %>
+      </div>
+      <div class="field">
+        <%= p.label :minutes %>
+        <%= p.text_area :minutes %>
+      </div>
+    <% end %>
+  <% end %>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+
+<% end %>
+
 
 <%= link_to 'Back', properties_path %>

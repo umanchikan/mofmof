@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_07_24_100137) do
+ActiveRecord::Schema.define(version: 2020_07_25_015801) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -21,6 +21,8 @@ ActiveRecord::Schema.define(version: 2020_07_24_100137) do
     t.string "minutes"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.bigint "property_id"
+    t.index ["property_id"], name: "index_near_stations_on_property_id"
   end
 
   create_table "properties", force: :cascade do |t|
@@ -33,4 +35,5 @@ ActiveRecord::Schema.define(version: 2020_07_24_100137) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "near_stations", "properties"
 end

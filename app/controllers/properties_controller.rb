@@ -15,10 +15,12 @@ class PropertiesController < ApplicationController
   # GET /properties/new
   def new
     @property = Property.new
+    @property.near_stations.build
   end
 
   # GET /properties/1/edit
   def edit
+    puts "aaaa"
   end
 
   # POST /properties
@@ -69,6 +71,16 @@ class PropertiesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def property_params
-      params.fetch(:property, {})
+      params.require(:property).permit(
+          :name,
+          :price,
+          :address,
+          :age,
+          :remark,
+          near_stations_attributes: [:line_name,
+                        :station_name,
+                        :minutes,
+                        :id]
+                                        )
     end
 end
