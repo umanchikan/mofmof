@@ -13,19 +13,19 @@
 
   <div class="field">
     <%= f.label :name %>
-    <%= f.text_area :name %>
+    <%= f.text_field :name %>
   </div>
   <div class="field">
     <%= f.label :price %>
-    <%= f.text_area :price %>
+    <%= f.text_field :price %>
   </div>
   <div class="field">
     <%= f.label :address %>
-    <%= f.text_area :address %>
+    <%= f.text_field :address %>
   </div>
   <div class="field">
     <%= f.label :age %>
-    <%= f.text_area :age %>
+    <%= f.text_field :age %>
   </div>
   <div class="field">
     <%= f.label :remark %>
@@ -36,15 +36,15 @@
     <% @property.near_stations.each do %>
     <div class="field">
       <%= p.label :line_name %>
-      <%= p.text_area :line_name %>
+      <%= p.text_field :line_name %>
     </div>
     <div class="field">
       <%= p.label :station_name %>
-      <%= p.text_area :station_name %>
+      <%= p.text_field :station_name %>
     </div>
     <div class="field">
       <%= p.label :minutes %>
-      <%= p.text_area :minutes %>
+      <%= p.text_field :minutes %>
     </div>
   <% end %>
   <% end %>
@@ -54,3 +54,21 @@
   </div>
 
 <% end %>
+
+<script>
+    window.onload = () => {
+        document.getElementsByClassName('moyorieki')[0].innerText = "最寄駅1"
+        const button = document.getElementById('addStation')
+        button.addEventListener('click', () => {
+            setTimeout(() => {
+                const moyoriekis = document.getElementsByClassName('moyorieki')
+                for(i = 0; i < moyoriekis.length; i++){
+                    moyoriekis[i].innerHTML = `最寄駅${i+1}`
+                }
+            }, 1)
+        })
+    }
+</script>
+
+
+
