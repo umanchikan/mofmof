@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7a041e9d-cac7-4140-bee6-e3ed0eb114d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/properties_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/properties_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/property.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/property.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/properties/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/properties/_form.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/properties/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/properties/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/properties/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/properties/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/properties/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/properties/new.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/properties/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/properties/show.html.erb" afterDir="false" />
     </list>
@@ -164,7 +160,7 @@
       <updated>1595582414649</updated>
       <workItem from="1595582417173" duration="7632000" />
       <workItem from="1595660038877" duration="25045000" />
-      <workItem from="1595933198365" duration="5800000" />
+      <workItem from="1595933198365" duration="7274000" />
     </task>
     <servers />
   </component>
