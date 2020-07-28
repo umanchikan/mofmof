@@ -1,0 +1,79 @@
+<h1>物件編集</h1>
+
+<%= form_with(model: @property, local: true) do |f| %>
+  <% if @property.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@property.errors.count, "error") %> prohibited this property from being saved:</h2>
+
+      <ul>
+        <% @property.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :物件名 %>
+    <p><%= f.text_field :name %></p>
+  </div>
+  <div class="field">
+    <%= f.label :賃料 %>
+    <p><%= f.text_field :price %>円</p>
+  </div>
+  <div class="field">
+    <%= f.label :住所 %>
+    <p><%= f.text_field :address %></p>
+  </div>
+  <div class="field">
+    <%= f.label :築年数 %>
+    <p><%= f.text_field :age %>年</p>
+  </div>
+  <div class="field">
+    <p><%= f.label :備考 %></p>
+    <p><%= f.text_area :remark %>
+  </div>
+
+
+  <hr>
+
+  <% i = 1 %>
+  <%= f.fields_for :near_stations, @near_stations do |p| %>
+    <p>最寄駅<%= i %></p>
+    <div class="field">
+      <%= p.label :路線名 %>
+      <p><%= p.text_field :line_name %></p>
+    </div>
+    <div class="field">
+      <%= p.label :駅名 %>
+      <p><%= p.text_field :station_name %></p>
+    </div>
+    <div class="field">
+      <%= p.label :徒歩分数 %>
+      <p><%= p.text_field :minutes %>分</p>
+    </div>
+    <% i += 1 %>
+  <% end %>
+
+  <%= f.fields_for :near_stations, @property.near_stations.build do |p| %>
+    <p>最寄駅<%= @near_stations.count + 1 %></p>
+    <div class="field">
+      <%= p.label :路線名 %>
+      <p><%= p.text_field :line_name %></p>
+    </div>
+    <div class="field">
+      <%= p.label :駅名 %>
+      <p><%= p.text_field :station_name %></p>
+    </div>
+    <div class="field">
+      <%= p.label :徒歩分数 %>
+      <p><%= p.text_field :minutes %>分</p>
+    </div>
+  <% end %>
+  <div class="actions">
+    <%= f.submit "更新する" %>
+  </div>
+<% end %>
+
+<%= link_to '詳細', @property %> |
+<%= link_to '戻る', properties_path %>

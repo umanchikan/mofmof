@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7a041e9d-cac7-4140-bee6-e3ed0eb114d1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1f7wPUOtddO12UUfXRcJTWjuXCp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RunManager" selected="Rails.Development: mof_mof">
+    <configuration name="Development: mof_mof" type="RailsRunConfigurationType" factoryName="Rails">
+      <module name="mof_mof" />
+      <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Production: mof_mof" type="RailsRunConfigurationType" factoryName="Rails">
+      <module name="mof_mof" />
+      <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="spec: mof_mof" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="mof_mof" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test: mof_mof" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="mof_mof" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a041e9d-cac7-4140-bee6-e3ed0eb114d1" name="Default Changelist" comment="" />
+      <created>1595582414649</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595582414649</updated>
+      <workItem from="1595582417173" duration="7632000" />
+      <workItem from="1595660038877" duration="25045000" />
+      <workItem from="1595933198365" duration="7476000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="353" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1595942655601">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="353" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.800@0.0.1280.800" timestamp="1595942655601" />
+    <state width="1238" height="319" key="GridCell.Tab.0.bottom" timestamp="1595939418453">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="319" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1595939418453" />
+    <state width="1238" height="319" key="GridCell.Tab.0.center" timestamp="1595939418452">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="319" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1595939418452" />
+    <state width="1238" height="319" key="GridCell.Tab.0.left" timestamp="1595939418451">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="319" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1595939418451" />
+    <state width="1238" height="319" key="GridCell.Tab.0.right" timestamp="1595939418453">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="319" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1595939418453" />
+    <state width="1238" height="319" key="GridCell.Tab.1.bottom" timestamp="1595939418455">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="319" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1595939418455" />
+    <state width="1238" height="319" key="GridCell.Tab.1.bottom/0.23.1280.697@0.23.1280.697" timestamp="1595939151515" />
+    <state width="1238" height="319" key="GridCell.Tab.1.bottom/0.23.1280.709@0.23.1280.709" timestamp="1595769211352" />
+    <state width="1238" height="319" key="GridCell.Tab.1.center" timestamp="1595939418454">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="319" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1595939418454" />
+    <state width="1238" height="319" key="GridCell.Tab.1.center/0.23.1280.697@0.23.1280.697" timestamp="1595939151514" />
+    <state width="1238" height="319" key="GridCell.Tab.1.center/0.23.1280.709@0.23.1280.709" timestamp="1595769211349" />
+    <state width="1238" height="319" key="GridCell.Tab.1.left" timestamp="1595939418454">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="319" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1595939418454" />
+    <state width="1238" height="319" key="GridCell.Tab.1.left/0.23.1280.697@0.23.1280.697" timestamp="1595939151514" />
+    <state width="1238" height="319" key="GridCell.Tab.1.left/0.23.1280.709@0.23.1280.709" timestamp="1595769211348" />
+    <state width="1238" height="319" key="GridCell.Tab.1.right" timestamp="1595939418455">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="319" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1595939418455" />
+    <state width="1238" height="319" key="GridCell.Tab.1.right/0.23.1280.697@0.23.1280.697" timestamp="1595939151515" />
+    <state width="1238" height="319" key="GridCell.Tab.1.right/0.23.1280.709@0.23.1280.709" timestamp="1595769211349" />
+    <state width="1238" height="319" key="GridCell.Tab.2.bottom" timestamp="1595939418457">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="319" key="GridCell.Tab.2.bottom/0.0.1280.800@0.0.1280.800" timestamp="1595939418457" />
+    <state width="1238" height="319" key="GridCell.Tab.2.center" timestamp="1595939418456">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="319" key="GridCell.Tab.2.center/0.0.1280.800@0.0.1280.800" timestamp="1595939418456" />
+    <state width="1238" height="319" key="GridCell.Tab.2.left" timestamp="1595939418456">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="319" key="GridCell.Tab.2.left/0.0.1280.800@0.0.1280.800" timestamp="1595939418456" />
+    <state width="1238" height="319" key="GridCell.Tab.2.right" timestamp="1595939418457">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="319" key="GridCell.Tab.2.right/0.0.1280.800@0.0.1280.800" timestamp="1595939418457" />
+    <state x="192" y="143" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1595764486638">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="192" y="143" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.800@0.0.1280.800" timestamp="1595764486638" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1595740392793">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1595740392793" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/controllers/properties_controller.rb</url>
+          <line>31</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mof_mof@Development__mof_mof.rcov" NAME="Development: mof_mof Coverage Results" MODIFIED="1595939314194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mof_mof" />
+  </component>
+</project>
