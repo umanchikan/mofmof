@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="7a041e9d-cac7-4140-bee6-e3ed0eb114d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/properties_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/properties_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/property.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/property.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/properties/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/properties/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/properties/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/properties/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/properties/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/properties/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/properties/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/properties/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/properties/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/properties/show.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +50,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunManager" selected="Rails.Development: mof_mof">
     <configuration name="Development: mof_mof" type="RailsRunConfigurationType" factoryName="Rails">
@@ -157,7 +163,8 @@
       <option name="presentableId" value="Default" />
       <updated>1595582414649</updated>
       <workItem from="1595582417173" duration="7632000" />
-      <workItem from="1595660038877" duration="15911000" />
+      <workItem from="1595660038877" duration="25045000" />
+      <workItem from="1595933198365" duration="5800000" />
     </task>
     <servers />
   </component>
@@ -165,62 +172,70 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="319" key="GridCell.Tab.0.bottom" timestamp="1595749020918">
+    <state x="353" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1595942655601">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="319" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1595749020918" />
-    <state width="1238" height="319" key="GridCell.Tab.0.center" timestamp="1595749020917">
+    <state x="353" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.800@0.0.1280.800" timestamp="1595942655601" />
+    <state width="1238" height="319" key="GridCell.Tab.0.bottom" timestamp="1595939418453">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="319" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1595749020917" />
-    <state width="1238" height="319" key="GridCell.Tab.0.left" timestamp="1595749020916">
+    <state width="1238" height="319" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1595939418453" />
+    <state width="1238" height="319" key="GridCell.Tab.0.center" timestamp="1595939418452">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="319" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1595749020916" />
-    <state width="1238" height="319" key="GridCell.Tab.0.right" timestamp="1595749020918">
+    <state width="1238" height="319" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1595939418452" />
+    <state width="1238" height="319" key="GridCell.Tab.0.left" timestamp="1595939418451">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="319" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1595749020918" />
-    <state width="1238" height="319" key="GridCell.Tab.1.bottom" timestamp="1595749020921">
+    <state width="1238" height="319" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1595939418451" />
+    <state width="1238" height="319" key="GridCell.Tab.0.right" timestamp="1595939418453">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="319" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1595749020921" />
-    <state width="1238" height="319" key="GridCell.Tab.1.bottom/0.23.1280.709@0.23.1280.709" timestamp="1595743414449" />
-    <state width="1238" height="319" key="GridCell.Tab.1.center" timestamp="1595749020919">
+    <state width="1238" height="319" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1595939418453" />
+    <state width="1238" height="319" key="GridCell.Tab.1.bottom" timestamp="1595939418455">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="319" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1595749020919" />
-    <state width="1238" height="319" key="GridCell.Tab.1.center/0.23.1280.709@0.23.1280.709" timestamp="1595743414448" />
-    <state width="1238" height="319" key="GridCell.Tab.1.left" timestamp="1595749020919">
+    <state width="1238" height="319" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1595939418455" />
+    <state width="1238" height="319" key="GridCell.Tab.1.bottom/0.23.1280.697@0.23.1280.697" timestamp="1595939151515" />
+    <state width="1238" height="319" key="GridCell.Tab.1.bottom/0.23.1280.709@0.23.1280.709" timestamp="1595769211352" />
+    <state width="1238" height="319" key="GridCell.Tab.1.center" timestamp="1595939418454">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="319" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1595749020919" />
-    <state width="1238" height="319" key="GridCell.Tab.1.left/0.23.1280.709@0.23.1280.709" timestamp="1595743414447" />
-    <state width="1238" height="319" key="GridCell.Tab.1.right" timestamp="1595749020920">
+    <state width="1238" height="319" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1595939418454" />
+    <state width="1238" height="319" key="GridCell.Tab.1.center/0.23.1280.697@0.23.1280.697" timestamp="1595939151514" />
+    <state width="1238" height="319" key="GridCell.Tab.1.center/0.23.1280.709@0.23.1280.709" timestamp="1595769211349" />
+    <state width="1238" height="319" key="GridCell.Tab.1.left" timestamp="1595939418454">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="319" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1595749020920" />
-    <state width="1238" height="319" key="GridCell.Tab.1.right/0.23.1280.709@0.23.1280.709" timestamp="1595743414448" />
-    <state width="1238" height="319" key="GridCell.Tab.2.bottom" timestamp="1595749020923">
+    <state width="1238" height="319" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1595939418454" />
+    <state width="1238" height="319" key="GridCell.Tab.1.left/0.23.1280.697@0.23.1280.697" timestamp="1595939151514" />
+    <state width="1238" height="319" key="GridCell.Tab.1.left/0.23.1280.709@0.23.1280.709" timestamp="1595769211348" />
+    <state width="1238" height="319" key="GridCell.Tab.1.right" timestamp="1595939418455">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="319" key="GridCell.Tab.2.bottom/0.0.1280.800@0.0.1280.800" timestamp="1595749020923" />
-    <state width="1238" height="319" key="GridCell.Tab.2.center" timestamp="1595749020922">
+    <state width="1238" height="319" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1595939418455" />
+    <state width="1238" height="319" key="GridCell.Tab.1.right/0.23.1280.697@0.23.1280.697" timestamp="1595939151515" />
+    <state width="1238" height="319" key="GridCell.Tab.1.right/0.23.1280.709@0.23.1280.709" timestamp="1595769211349" />
+    <state width="1238" height="319" key="GridCell.Tab.2.bottom" timestamp="1595939418457">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="319" key="GridCell.Tab.2.center/0.0.1280.800@0.0.1280.800" timestamp="1595749020922" />
-    <state width="1238" height="319" key="GridCell.Tab.2.left" timestamp="1595749020921">
+    <state width="1238" height="319" key="GridCell.Tab.2.bottom/0.0.1280.800@0.0.1280.800" timestamp="1595939418457" />
+    <state width="1238" height="319" key="GridCell.Tab.2.center" timestamp="1595939418456">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="319" key="GridCell.Tab.2.left/0.0.1280.800@0.0.1280.800" timestamp="1595749020921" />
-    <state width="1238" height="319" key="GridCell.Tab.2.right" timestamp="1595749020923">
+    <state width="1238" height="319" key="GridCell.Tab.2.center/0.0.1280.800@0.0.1280.800" timestamp="1595939418456" />
+    <state width="1238" height="319" key="GridCell.Tab.2.left" timestamp="1595939418456">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="319" key="GridCell.Tab.2.right/0.0.1280.800@0.0.1280.800" timestamp="1595749020923" />
-    <state x="192" y="143" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1595742700270">
+    <state width="1238" height="319" key="GridCell.Tab.2.left/0.0.1280.800@0.0.1280.800" timestamp="1595939418456" />
+    <state width="1238" height="319" key="GridCell.Tab.2.right" timestamp="1595939418457">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="192" y="143" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.800@0.0.1280.800" timestamp="1595742700270" />
+    <state width="1238" height="319" key="GridCell.Tab.2.right/0.0.1280.800@0.0.1280.800" timestamp="1595939418457" />
+    <state x="192" y="143" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1595764486638">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="192" y="143" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.800@0.0.1280.800" timestamp="1595764486638" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1595740392793">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -231,16 +246,16 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/app/controllers/properties_controller.rb</url>
-          <line>22</line>
+          <line>31</line>
           <properties myBlockOrdinal="-1">
             <option name="block-ordinal" value="-1" />
           </properties>
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/mof_mof@Development__mof_mof.rcov" NAME="Development: mof_mof Coverage Results" MODIFIED="1595743281296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mof_mof" />
+    <SUITE FILE_PATH="coverage/mof_mof@Development__mof_mof.rcov" NAME="Development: mof_mof Coverage Results" MODIFIED="1595939314194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mof_mof" />
   </component>
 </project>

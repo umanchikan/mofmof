@@ -10,6 +10,7 @@ class PropertiesController < ApplicationController
   # GET /properties/1
   # GET /properties/1.json
   def show
+    @near_stations = @property.near_stations
   end
 
   # GET /properties/new
@@ -20,36 +21,27 @@ class PropertiesController < ApplicationController
 
   # GET /properties/1/edit
   def edit
-    puts "aaaa"
+    @near_stations = @property.near_stations
   end
 
   # POST /properties
   # POST /properties.json
   def create
     @property = Property.new(property_params)
-
-    respond_to do |format|
-      if @property.save
-        format.html { redirect_to @property, notice: 'Property was successfully created.' }
-        format.json { render :show, status: :created, location: @property }
-      else
-        format.html { render :new }
-        format.json { render json: @property.errors, status: :unprocessable_entity }
-      end
+    if @property.save
+      redirect_to property_path(@property), notice: 'Property was successfully created.'
+    else
+      render :new
     end
   end
 
   # PATCH/PUT /properties/1
   # PATCH/PUT /properties/1.json
   def update
-    respond_to do |format|
-      if @property.update(property_params)
-        format.html { redirect_to @property, notice: 'Property was successfully updated.' }
-        format.json { render :show, status: :ok, location: @property }
-      else
-        format.html { render :edit }
-        format.json { render json: @property.errors, status: :unprocessable_entity }
-      end
+    if @property.update(property_params)
+      redirect_to @property, notice: 'Property was successfully updated.'
+    else
+      render :edit
     end
   end
 
@@ -57,10 +49,7 @@ class PropertiesController < ApplicationController
   # DELETE /properties/1.json
   def destroy
     @property.destroy
-    respond_to do |format|
-      format.html { redirect_to properties_url, notice: 'Property was successfully destroyed.' }
-      format.json { head :no_content }
-    end
+    redirect_to properties_url, notice: 'Property was successfully destroyed.'
   end
 
   private

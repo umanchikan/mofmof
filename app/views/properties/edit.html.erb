@@ -1,6 +1,76 @@
-<h1>Editing Property</h1>
+<h1>物件編集</h1>
 
-<%= render 'form', property: @property %>
+<%= form_with(model: @property, local: true) do |f| %>
+  <% if @property.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@property.errors.count, "error") %> prohibited this property from being saved:</h2>
 
-<%= link_to 'Show', @property %> |
-<%= link_to 'Back', properties_path %>
+      <ul>
+        <% @property.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :物件名 %>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :賃料 %>
+    <%= f.text_field :price %>
+  </div>
+  <div class="field">
+    <%= f.label :住所 %>
+    <%= f.text_field :address %>
+  </div>
+  <div class="field">
+    <%= f.label :築年数 %>
+    <%= f.text_field :age %>
+  </div>
+  <div class="field">
+    <%= f.label :備考 %>
+    <%= f.text_area :remark %>
+  </div>
+
+  <% i = 1 %>
+  <%= f.fields_for :near_stations, @near_stations do |p| %>
+    <p>最寄駅<%= i %></p>
+    <div class="field">
+      <%= p.label :路線名 %>
+      <%= p.text_field :line_name %>
+    </div>
+    <div class="field">
+      <%= p.label :駅名 %>
+      <%= p.text_field :station_name %>
+    </div>
+    <div class="field">
+      <%= p.label :徒歩分数 %>
+      <%= p.text_field :minutes %>
+    </div>
+    <% i += 1 %>
+  <% end %>
+
+  <%= f.fields_for :near_stations, @property.near_stations.build do |p| %>
+    <p>最寄駅<%= @near_stations.count + 1 %></p>
+    <div class="field">
+      <%= p.label :路線名 %>
+      <%= p.text_field :line_name %>
+    </div>
+    <div class="field">
+      <%= p.label :駅名 %>
+      <%= p.text_field :station_name %>
+    </div>
+    <div class="field">
+      <%= p.label :徒歩分数 %>
+      <%= p.text_field :minutes %>
+    </div>
+  <% end %>
+  <div class="actions">
+    <%= f.submit "更新する" %>
+  </div>
+<% end %>
+
+<%= link_to '詳細', @property %> |
+<%= link_to '戻る', properties_path %>
